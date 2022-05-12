@@ -24,8 +24,7 @@ const routes: Routes = [
     path: 'domicilios',
     loadChildren: () => import('./domicilios/domicilios.module').then( m => m.DomiciliosPageModule)
   },
-
-];
+ ];
 
 @NgModule({
   imports: [

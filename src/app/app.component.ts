@@ -9,8 +9,7 @@ export class AppComponent {
     { title: 'Menú', url: '/menu', icon: 'paper-plane' },
     { title: 'Medios de pago', url: 'medios', icon: 'archive' },
     { title: 'Domicilios', url: "domicilios", icon: 'trash' },
-    
-  ];
+      ];
   public labels = ["Loreta","Leche asada", "Chocolate Oreo","Bavaroise fresa","Cheese cake","Gelatina"];
   constructor() {}
 }
